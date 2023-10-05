@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.base-circle {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(194, 4, 4, 0.658);
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
