@@ -1,14 +1,26 @@
+@charset "UTF-8";
+
 body {
     background-color: black;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#base {
     display: flex;
     justify-content: space-around;
 }
-.base-circle {
-    width: 200px;
-    height: 200px;
+.circle {
+    min-width: 70px;
+    color: white;
     background-color: rgba(194, 4, 4, 0.658);
     border-radius: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    margin: 0px 40px 0px 40px;
+    text-align: center;
+    padding: 126px 100px 126px 100px;
+}
+.circle:hover {
+    background-color: rgba(105, 0, 0, 0.658);
 }
